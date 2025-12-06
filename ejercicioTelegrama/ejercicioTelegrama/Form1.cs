@@ -32,7 +32,7 @@ StringSplitOptions.RemoveEmptyEntries).Length;
             {
                 if (numPalabras <= 10)
                 {
-                    coste = 2.5;
+                    coste = 3;
                 }
                 else
                 {
@@ -48,7 +48,7 @@ StringSplitOptions.RemoveEmptyEntries).Length;
                     if (numPalabras <= 10)
 
                     {
-                        coste = 5;
+                        coste = 6;
                     }
                     else
                     {
