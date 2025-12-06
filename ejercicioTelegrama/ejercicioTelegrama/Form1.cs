@@ -13,16 +13,21 @@ namespace ejercicioTelegrama
             char tipoTelegrama = ' ';
             int numPalabras = 0;
             double coste;
-            //Leo el telegrama
+            //Leo el telegrama 
             textoTelegrama = txtTelegrama.Text;
-            // telegrama urgente?
-            if (chkUrgente.Checked)
+            // telegrama urgente? 
+            if (rbUrgente.Checked)
             {
                 tipoTelegrama = 'u';
             }
-            //Obtengo el número de palabras que forma el telegrama
-            numPalabras = textoTelegrama.Length;
-            //Si el telegrama es ordinario
+            else if (rbOrdinario.Checked)
+            {
+                tipoTelegrama = 'o';
+            }
+            //Obtengo el número de palabras que forma el telegrama 
+            numPalabras = textoTelegrama.Split(' ',
+StringSplitOptions.RemoveEmptyEntries).Length;
+            //Si el telegrama es ordinario 
             if (tipoTelegrama == 'o')
             {
                 if (numPalabras <= 10)
@@ -35,7 +40,7 @@ namespace ejercicioTelegrama
                 }
             }
             else
-            //Si el telegrama es urgente
+            //Si el telegrama es urgente 
             {
                 if (tipoTelegrama == 'u')
                 {
