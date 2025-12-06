@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ejercicioTelegrama")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4539d2be1fb4574eb220d53b1147f7f29fc7ea7f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d285781ad3eef958ee08e5f3756453c412f6e85")]
 [assembly: System.Reflection.AssemblyProductAttribute("ejercicioTelegrama")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ejercicioTelegrama")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
